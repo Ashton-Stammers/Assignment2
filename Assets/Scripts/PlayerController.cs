@@ -66,7 +66,7 @@ public class PlayerController : MonoBehaviour
 
         if (isGroundedBool)
         {
-            canDoubleJump = true; // Reset double jump when grounded
+            canDoubleJump = false; // Reset double jump when grounded
 
             if (controlmode == Controls.pc)
             {
